@@ -1,0 +1,84 @@
+/*
+ Theme Name:   GeneratePress Child Theme
+ description: >-
+   A child theme of the GeneratePress theme
+ Author: Tom Usborne
+ Template:     generatepress
+ Version:      1.0.0
+*/
+
+* {
+    box-sizing: border-box !important;
+}
+
+.site-header {
+    background-color: rgba(55, 65, 81);
+}
+
+#site-navigation {
+    background-color: transparent;
+}
+
+#masthead {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11),
+              0 2px 2px rgba(0,0,0,0.11),
+              0 4px 4px rgba(0,0,0,0.11),
+              0 8px 8px rgba(0,0,0,0.11),
+              0 16px 16px rgba(0,0,0,0.11),
+              0 32px 32px rgba(0,0,0,0.11);
+}
+
+.main-navigation .main-nav ul li[class*="current-menu-"] > a {
+    color: #ffffff;
+    background-color: transparent;
+    border-bottom: solid 2px #FF1751;
+    font-weight: 800;
+}
+
+.main-navigation .main-nav ul li > a {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.main-navigation .main-nav ul li:hover > a {
+    color: #ffffff !important;
+    background-color: transparent !important;
+}
+
+#home-header {
+    background-image: url('/wp-content/uploads/2020/11/banner_1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: 100vh;
+    max-height: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10%;
+}
+
+#home-header {
+    text-align: right;
+}
+
+#home-header h1 {
+    font-size: 5rem;
+    width: 50%;
+    margin: 0;
+}
+
+#home-header p {
+    margin: 0;
+    width: 50%;
+}
+
+#home-header h2 {
+    width: 50%;
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    #home-header h1 {
+        font-size: 36px;
+    }
+}
