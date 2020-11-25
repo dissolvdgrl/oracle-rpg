@@ -41,10 +41,10 @@ get_header(); ?>
 			 *
 			 * @since 0.1
 			 */
-			do_action( 'generate_after_main_content' );
+            do_action( 'generate_after_main_content' );
+
 			?>
-		</main>
-	</div>
+        </main>
 
 	<?php
 	/**

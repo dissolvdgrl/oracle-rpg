@@ -47,7 +47,7 @@ get_header(); ?>
 	 *
 	 * @since 2.0
 	 */
-	do_action( 'generate_after_primary_content_area' );
+    do_action( 'generate_after_primary_content_area' );
 
 	generate_construct_sidebars();
 

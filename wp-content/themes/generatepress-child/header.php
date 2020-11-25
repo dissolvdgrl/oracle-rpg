@@ -56,7 +56,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     do_action( 'generate_after_header' );
     if( is_front_page() )
     {
-        include('includes/main-header.html');
+        include('inc/main-header.html');
     }
     ?>
 
